@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLB Wild Card Race Tracker</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1f4788">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: #1f4788;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header .date {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .notification-setup {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .notification-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .notification-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .notification-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .status-live { background: #10b981; }
+        .status-loading { background: #f59e0b; }
+        .status-error { background: #ef4444; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h2 {
+            color: #1f4788;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .standings-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .standings-table th,
+        .standings-table td {
+            padding: 12px 8px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .standings-table th {
+            background: #f8fafc;
+            font-weight: 600;
+            color: #374151;
+            font-size: 0.9rem;
+        }
+
+        .wildcard-team {
+            background: linear-gradient(90deg, #10b981, #059669);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 600;
+        }
+
+        .bubble-team {
+            color: #d97706;
+            font-weight: 500;
+        }
+
+        .game-result {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            margin: 8px 0;
+            background: #f8fafc;
+            border-radius: 10px;
+            border-left: 4px solid #1f4788;
+        }
+
+        .odds-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .odds-item {
+            text-align: center;
+            padding: 15px;
+            background: #f8fafc;
+            border-radius: 10px;
+        }
+
+        .odds-percentage {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1f4788;
+        }
+
+        .refresh-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .refresh-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #1f4788;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .last-updated {
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 30px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .standings-table {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏆 MLB Wild Card Race</h1>
+            <div class="date" id="currentDate"></div>
+            <div class="status-indicator status-loading" id="statusIndicator"></div>
+            <span id="statusText">Loading data...</span>
+        </div>
+
+        <div class="notification-setup">
+            <h3>📱 Get Daily Push Notifications</h3>
+            <p>Enable notifications to get alerted when the standings update each morning at 7 AM EST</p>
+            <button class="notification-btn" id="enableNotifications">
+                Enable Push Notifications
+            </button>
+            <p id="notificationStatus" style="margin-top: 10px; font-size: 0.9rem;"></p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h2>📊 American League Wild Card</h2>
+                <div id="alStandings">
+                    <div class="loading"></div> Loading AL standings...
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>📊 National League Wild Card</h2>
+                <div id="nlStandings">
+                    <div class="loading"></div> Loading NL standings...
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>🎯 Recent Games</h2>
+                <div id="recentGames">
+                    <div class="loading"></div> Loading recent results...
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>📈 Playoff Odds</h2>
+                <div id="playoffOdds">
+                    <div class="loading"></div> Loading playoff probabilities...
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🔥 Key Storylines</h2>
+            <div id="storylines">
+                <div class="loading"></div> Loading key storylines...
+            </div>
+        </div>
+
+        <div class="last-updated" id="lastUpdated">
+            Last updated: Loading...
+        </div>
+    </div>
+
+    <button class="refresh-btn" id="refreshBtn" title="Refresh Data">
+        🔄
+    </button>
+
+    <script>
+        // Service Worker Registration
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+                .then(registration => console.log('SW registered:', registration))
+                .catch(error => console.log('SW registration failed:', error));
+        }
+
+        // Push Notification Setup
+        const enableNotificationsBtn = document.getElementById('enableNotifications');
+        const notificationStatus = document.getElementById('notificationStatus');
+
+        enableNotificationsBtn.addEventListener('click', async () => {
+            if (!('Notification' in window)) {
+                notificationStatus.textContent = 'This browser does not support notifications';
+                return;
+            }
+
+            if (Notification.permission === 'denied') {
+                notificationStatus.textContent = 'Notifications are blocked. Please enable in browser settings.';
+                return;
+            }
+
+            const permission = await Notification.requestPermission();
+            
+            if (permission === 'granted') {
+                notificationStatus.textContent = '✅ Notifications enabled! You\'ll get updates at 7 AM EST.';
+                enableNotificationsBtn.textContent = 'Notifications Enabled';
+                enableNotificationsBtn.disabled = true;
+                
+                // Store notification preference
+                localStorage.setItem('notificationsEnabled', 'true');
+                
+                // Schedule daily check
+                scheduleDailyCheck();
+            } else {
+                notificationStatus.textContent = '❌ Notifications denied. Enable in browser settings to get updates.';
+            }
+        });
+
+        // Check existing notification permission
+        if (Notification.permission === 'granted') {
+            notificationStatus.textContent = '✅ Notifications are enabled';
+            enableNotificationsBtn.textContent = 'Notifications Enabled';
+            enableNotificationsBtn.disabled = true;
+            scheduleDailyCheck();
+        }
+
+        function scheduleDailyCheck() {
+            // Check for updates every hour, send notification if new data at 7 AM
+            setInterval(checkForUpdates, 60 * 60 * 1000);
+        }
+
+        function checkForUpdates() {
+            const now = new Date();
+            const hour = now.getHours();
+            
+            // If it's 7 AM and notifications are enabled
+            if (hour === 7 && localStorage.getItem('notificationsEnabled') === 'true') {
+                showNotification();
+            }
+        }
+
+        function showNotification() {
+            if (Notification.permission === 'granted') {
+                new Notification('🏆 MLB Wild Card Update Ready!', {
+                    body: 'Your daily wild card race update is now available.',
+                    icon: 'https://cdn-icons-png.flaticon.com/512/33/33736.png',
+                    badge: 'https://cdn-icons-png.flaticon.com/512/33/33736.png',
+                    tag: 'mlb-update',
+                    requireInteraction: true
+                });
+            }
+        }
+
+        // Data Loading Functions
+        async function loadMLBData() {
+            const statusIndicator = document.getElementById('statusIndicator');
+            const statusText = document.getElementById('statusText');
+            
+            statusIndicator.className = 'status-indicator status-loading';
+            statusText.textContent = 'Loading latest data...';
+
+            try {
+                // In a real implementation, this would fetch from your data.json file
+                // For now, we'll use mock data
+                const data = await loadMockData();
+                
+                updateStandings(data.standings);
+                updateRecentGames(data.recent_games);
+                updatePlayoffOdds(data.playoff_odds);
+                updateStorylines(data.storylines);
+                
+                statusIndicator.className = 'status-indicator status-live';
+                statusText.textContent = 'Live data';
+                
+                document.getElementById('lastUpdated').textContent = 
+                    `Last updated: ${new Date().toLocaleString()}`;
+                    
+            } catch (error) {
+                console.error('Error loading data:', error);
+                statusIndicator.className = 'status-indicator status-error';
+                statusText.textContent = 'Error loading data';
+            }
+        }
+
+        async function loadMockData() {
+            // Simulate API delay
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            
+            return {
+                standings: {
+                    al_wildcard: [
+                        {team: 'Boston Red Sox', record: '58-45', pct: '.563', wcgb: '-', status: 'WC1'},
+                        {team: 'Seattle Mariners', record: '56-47', pct: '.544', wcgb: '2.0', status: 'WC2'},
+                        {team: 'Houston Astros', record: '55-48', pct: '.534', wcgb: '3.0', status: 'WC3'},
+                        {team: 'Los Angeles Angels', record: '50-53', pct: '.485', wcgb: '8.0', status: 'Contender'},
+                        {team: 'Minnesota Twins', record: '49-54', pct: '.476', wcgb: '9.0', status: 'Contender'}
+                    ],
+                    nl_wildcard: [
+                        {team: 'New York Mets', record: '59-44', pct: '.573', wcgb: '-', status: 'WC1'},
+                        {team: 'Atlanta Braves', record: '57-46', pct: '.553', wcgb: '2.0', status: 'WC2'},
+                        {team: 'St. Louis Cardinals', record: '54-49', pct: '.524', wcgb: '5.0', status: 'WC3'},
+                        {team: 'Milwaukee Brewers', record: '52-51', pct: '.505', wcgb: '7.0', status: 'Contender'},
+                        {team: 'San Francisco Giants', record: '51-52', pct: '.495', wcgb: '8.0', status: 'Contender'}
+                    ]
+                },
+                recent_games: [
+                    {away_team: 'LAA', home_team: 'NYM', away_score: '3', home_score: '7', impact: 'Angels fall further behind in WC race'},
+                    {away_team: 'BOS', home_team: 'SEA', away_score: '5', home_score: '4', impact: 'Red Sox gain ground on Mariners'},
+                    {away_team: 'MIN', home_team: 'KC', away_score: '2', home_score: '8', impact: 'Twins struggle continues'}
+                ],
+                playoff_odds: {
+                    al_odds: [
+                        {team: 'BOS', odds: '85%'},
+                        {team: 'SEA', odds: '72%'},
+                        {team: 'HOU', odds: '68%'},
+                        {team: 'LAA', odds: '25%'}
+                    ],
+                    nl_odds: [
+                        {team: 'NYM', odds: '78%'},
+                        {team: 'ATL', odds: '65%'},
+                        {team: 'STL', odds: '52%'},
+                        {team: 'MIL', odds: '31%'}
+                    ]
+                },
+                storylines: [
+                    "Red Sox maintain slim lead in AL Wild Card race despite recent struggles",
+                    "Angels' sweep by Mets puts serious dent in playoff hopes with trade deadline looming",
+                    "Mets surging ahead in NL Wild Card with strong pitching performance",
+                    "Trade deadline (July 31) could reshape entire wild card landscape"
+                ]
+            };
+        }
+
+        function updateStandings(standings) {
+            updateLeagueStandings('alStandings', standings.al_wildcard);
+            updateLeagueStandings('nlStandings', standings.nl_wildcard);
+        }
+
+        function updateLeagueStandings(elementId, teams) {
+            const container = document.getElementById(elementId);
+            
+            const table = `
+                <table class="standings-table">
+                    <thead>
+                        <tr>
+                            <th>Team</th>
+                            <th>Record</th>
+                            <th>PCT</th>
+                            <th>WCGB</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${teams.map(team => `
+                            <tr>
+                                <td class="${team.status.includes('WC') ? 'wildcard-team' : 'bubble-team'}">
+                                    ${team.team}
+                                </td>
+                                <td>${team.record}</td>
+                                <td>${team.pct}</td>
+                                <td>${team.wcgb}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+            
+            container.innerHTML = table;
+        }
+
+        function updateRecentGames(games) {
+            const container = document.getElementById('recentGames');
+            
+            const gamesHTML = games.map(game => `
+                <div class="game-result">
+                    <div>
+                        <strong>${game.away_team} ${game.away_score} - ${game.home_score} ${game.home_team}</strong>
+                    </div>
+                    <div style="font-size: 0.9rem; color: #666;">
+                        ${game.impact}
+                    </div>
+                </div>
+            `).join('');
+            
+            container.innerHTML = gamesHTML;
+        }
+
+        function updatePlayoffOdds(odds) {
+            const container = document.getElementById('playoffOdds');
+            
+            const oddsHTML = `
+                <h4>American League</h4>
+                <div class="odds-grid">
+                    ${odds.al_odds.map(team => `
+                        <div class="odds-item">
+                            <div>${team.team}</div>
+                            <div class="odds-percentage">${team.odds}</div>
+                        </div>
+                    `).join('')}
+                </div>
+                
+                <h4 style="margin-top: 20px;">National League</h4>
+                <div class="odds-grid">
+                    ${odds.nl_odds.map(team => `
+                        <div class="odds-item">
+                            <div>${team.team}</div>
+                            <div class="odds-percentage">${team.odds}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            
+            container.innerHTML = oddsHTML;
+        }
+
+        function updateStorylines(storylines) {
+            const container = document.getElementById('storylines');
+            
+            const storylinesHTML = storylines.map(story => `
+                <div style="margin: 10px 0; padding: 15px; background: #f8fafc; border-radius: 10px; border-left: 4px solid #1f4788;">
+                    ${story}
+                </div>
+            `).join('');
+            
+            container.innerHTML = storylinesHTML;
+        }
+
+        // Initialize page
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+
+        // Refresh button
+        document.getElementById('refreshBtn').addEventListener('click', loadMLBData);
+
+        // Load initial data
+        loadMLBData();
+
+        // Auto-refresh every 30 minutes
+        setInterval(loadMLBData, 30 * 60 * 1000);
+    </script>
+</body>
+</html>
