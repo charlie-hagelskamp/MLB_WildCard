@@ -1,0 +1,102 @@
+{
+  "standings": {
+    "al_wildcard": [],
+    "nl_wildcard": [],
+    "last_updated": "2025-07-25T23:21:08.477759"
+  },
+  "recent_games": [
+    {
+      "away_team": "BAL",
+      "home_team": "CLE",
+      "away_score": "4",
+      "home_score": "3",
+      "status": "Final",
+      "impact": "BAL gains ground in wild card race"
+    },
+    {
+      "away_team": "SD",
+      "home_team": "STL",
+      "away_score": "7",
+      "home_score": "9",
+      "status": "Final",
+      "impact": "STL gains ground in wild card race"
+    },
+    {
+      "away_team": "ATH",
+      "home_team": "HOU",
+      "away_score": "5",
+      "home_score": "2",
+      "status": "Final",
+      "impact": "ATH gains ground in wild card race"
+    },
+    {
+      "away_team": "SEA",
+      "home_team": "LAA",
+      "away_score": "4",
+      "home_score": "2",
+      "status": "Final",
+      "impact": "SEA gains ground in wild card race"
+    }
+  ],
+  "playoff_odds": {
+    "al_odds": [
+      {
+        "team": "BOS",
+        "odds": "78%"
+      },
+      {
+        "team": "SEA",
+        "odds": "65%"
+      },
+      {
+        "team": "HOU",
+        "odds": "61%"
+      },
+      {
+        "team": "LAA",
+        "odds": "35%"
+      },
+      {
+        "team": "MIN",
+        "odds": "28%"
+      },
+      {
+        "team": "CLE",
+        "odds": "22%"
+      }
+    ],
+    "nl_odds": [
+      {
+        "team": "NYM",
+        "odds": "82%"
+      },
+      {
+        "team": "ATL",
+        "odds": "71%"
+      },
+      {
+        "team": "PHI",
+        "odds": "69%"
+      },
+      {
+        "team": "STL",
+        "odds": "45%"
+      },
+      {
+        "team": "MIL",
+        "odds": "38%"
+      },
+      {
+        "team": "SF",
+        "odds": "31%"
+      }
+    ]
+  },
+  "storylines": [
+    "Trade deadline (July 31) approaching - several contenders may become buyers or sellers",
+    "Multiple teams within 5 games of final wild card spots in both leagues",
+    "September schedule strength could determine final playoff spots"
+  ],
+  "generated_at": "2025-07-25T23:21:08.596309",
+  "next_update": "2025-07-26T07:00:00.596322"
+}

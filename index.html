@@ -397,9 +397,20 @@
             statusText.textContent = 'Loading latest data...';
 
             try {
-                // In a real implementation, this would fetch from your data.json file
-                // For now, we'll use mock data
-                const data = await loadMockData();
+                // Try to fetch real data from data.json first
+                let data;
+                try {
+                    const response = await fetch('./data.json');
+                    if (response.ok) {
+                        data = await response.json();
+                        console.log('Loaded real MLB data from data.json');
+                    } else {
+                        throw new Error('data.json not found');
+                    }
+                } catch (error) {
+                    console.log('Using fallback mock data:', error.message);
+                    data = await loadMockData();
+                }
                 
                 updateStandings(data.standings);
                 updateRecentGames(data.recent_games);

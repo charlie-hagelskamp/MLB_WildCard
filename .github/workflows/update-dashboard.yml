@@ -33,7 +33,7 @@ jobs:
     
     - name: Fetch MLB data and generate JSON
       run: |
-        python generate_data.py
+        python data_generator.py
     
     - name: Commit updated data
       run: |
