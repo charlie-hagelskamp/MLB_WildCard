@@ -14,15 +14,13 @@ jobs:
     
     permissions:
       contents: write
-      pages: write
-      id-token: write
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
     
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
     
@@ -42,18 +40,6 @@ jobs:
         git add data.json
         git diff --staged --quiet || git commit -m "Update MLB data $(date)"
         git push
-    
-    - name: Setup Pages
-      uses: actions/configure-pages@v3
-    
-    - name: Upload to GitHub Pages
-      uses: actions/upload-pages-artifact@v2
-      with:
-        path: .
-    
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v2
     
     - name: Send push notification (webhook simulation)
       run: |
