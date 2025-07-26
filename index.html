@@ -35,6 +35,7 @@
             margin-bottom: 30px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
             text-align: center;
+            color: #333;
         }
 
         .header h1 {
@@ -55,6 +56,7 @@
             padding: 20px;
             margin-bottom: 30px;
             text-align: center;
+            color: #333;
         }
 
         .notification-btn {
@@ -103,6 +105,7 @@
             padding: 25px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
+            color: #333;
         }
 
         .card:hover {
@@ -138,15 +141,12 @@
         }
 
         .wildcard-team {
-            background: linear-gradient(90deg, #10b981, #059669);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #10b981;
             font-weight: 600;
         }
 
         .bubble-team {
-            color: #d97706;
+            color: #333;
             font-weight: 500;
         }
 
@@ -264,6 +264,7 @@
             </button>
             <p id="notificationStatus" style="margin-top: 10px; font-size: 0.9rem;"></p>
         </div>
+
 
         <div class="grid">
             <div class="card">
@@ -386,6 +387,7 @@
             }
         }
 
+
         // Data Loading Functions
         async function loadMLBData() {
             const statusIndicator = document.getElementById('statusIndicator');
@@ -463,7 +465,7 @@
                 },
                 storylines: [
                     "Red Sox maintain slim lead in AL Wild Card race despite recent struggles",
-                    "Angels' sweep by Mets puts serious dent in playoff hopes with trade deadline looming",
+                    "Angels' recent losses put serious dent in playoff hopes with trade deadline looming", 
                     "Mets surging ahead in NL Wild Card with strong pitching performance",
                     "Trade deadline (July 31) could reshape entire wild card landscape"
                 ]
@@ -489,9 +491,9 @@
                         </tr>
                     </thead>
                     <tbody>
-                        ${teams.map(team => `
+                        ${teams.map((team, index) => `
                             <tr>
-                                <td class="${team.status.includes('WC') ? 'wildcard-team' : 'bubble-team'}">
+                                <td class="${index < 3 ? 'wildcard-team' : 'bubble-team'}">
                                     ${team.team}
                                 </td>
                                 <td>${team.record}</td>
