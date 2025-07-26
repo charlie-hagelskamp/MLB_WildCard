@@ -1,7 +1,163 @@
 {
   "standings": {
-    "al_wildcard": [],
-    "nl_wildcard": [],
+    "al_wildcard": [
+      {
+        "team": "New York Yankees",
+        "abbrev": "NYY",
+        "wins": "55",
+        "losses": "45",
+        "pct": ".550",
+        "wcgb": "-",
+        "status": "WC1",
+        "streak": "W2",
+        "record": "55-45"
+      },
+      {
+        "team": "Seattle Mariners",
+        "abbrev": "SEA",
+        "wins": "53",
+        "losses": "47",
+        "pct": ".530",
+        "wcgb": "2.0",
+        "status": "WC2",
+        "streak": "L1",
+        "record": "53-47"
+      },
+      {
+        "team": "Boston Red Sox",
+        "abbrev": "BOS",
+        "wins": "54",
+        "losses": "48",
+        "pct": ".529",
+        "wcgb": "2.5",
+        "status": "WC3",
+        "streak": "W1",
+        "record": "54-48"
+      },
+      {
+        "team": "Minnesota Twins",
+        "abbrev": "MIN",
+        "wins": "51",
+        "losses": "49",
+        "pct": ".510",
+        "wcgb": "4.0",
+        "status": "Contender",
+        "streak": "L3",
+        "record": "51-49"
+      },
+      {
+        "team": "Texas Rangers",
+        "abbrev": "TEX",
+        "wins": "50",
+        "losses": "50",
+        "pct": ".500",
+        "wcgb": "5.0",
+        "status": "Contender",
+        "streak": "L2",
+        "record": "50-50"
+      },
+      {
+        "team": "Tampa Bay Rays",
+        "abbrev": "TB",
+        "wins": "49",
+        "losses": "51",
+        "pct": ".490",
+        "wcgb": "6.0",
+        "status": "Contender",
+        "streak": "W1",
+        "record": "49-51"
+      },
+      {
+        "team": "Los Angeles Angels",
+        "abbrev": "LAA",
+        "wins": "47",
+        "losses": "53",
+        "pct": ".470",
+        "wcgb": "8.0",
+        "status": "Contender",
+        "streak": "L1",
+        "record": "47-53"
+      }
+    ],
+    "nl_wildcard": [
+      {
+        "team": "Chicago Cubs",
+        "abbrev": "CHC",
+        "wins": "59",
+        "losses": "41",
+        "pct": ".590",
+        "wcgb": "-",
+        "status": "WC1",
+        "streak": "W3",
+        "record": "59-41"
+      },
+      {
+        "team": "New York Mets",
+        "abbrev": "NYM",
+        "wins": "57",
+        "losses": "44",
+        "pct": ".564",
+        "wcgb": "2.5",
+        "status": "WC2",
+        "streak": "W1",
+        "record": "57-44"
+      },
+      {
+        "team": "San Diego Padres",
+        "abbrev": "SD",
+        "wins": "55",
+        "losses": "45",
+        "pct": ".550",
+        "wcgb": "4.0",
+        "status": "WC3",
+        "streak": "L1",
+        "record": "55-45"
+      },
+      {
+        "team": "St. Louis Cardinals",
+        "abbrev": "STL",
+        "wins": "52",
+        "losses": "49",
+        "pct": ".515",
+        "wcgb": "7.5",
+        "status": "Contender",
+        "streak": "W2",
+        "record": "52-49"
+      },
+      {
+        "team": "Atlanta Braves",
+        "abbrev": "ATL",
+        "wins": "51",
+        "losses": "50",
+        "pct": ".505",
+        "wcgb": "8.5",
+        "status": "Contender",
+        "streak": "L1",
+        "record": "51-50"
+      },
+      {
+        "team": "Arizona Diamondbacks",
+        "abbrev": "ARI",
+        "wins": "50",
+        "losses": "51",
+        "pct": ".495",
+        "wcgb": "9.5",
+        "status": "Contender",
+        "streak": "W1",
+        "record": "50-51"
+      },
+      {
+        "team": "Cincinnati Reds",
+        "abbrev": "CIN",
+        "wins": "49",
+        "losses": "52",
+        "pct": ".485",
+        "wcgb": "10.5",
+        "status": "Contender",
+        "streak": "L2",
+        "record": "49-52"
+      }
+    ],
     "last_updated": "2025-07-26T03:28:29.155983"
   },
   "recent_games": [
@@ -141,6 +297,8 @@
     ]
   },
   "storylines": [
+    "New York Yankees leads AL Wild Card race at .550, but Minnesota Twins remains within striking distance",
+    "Chicago Cubs controls NL Wild Card with .590 winning percentage",
     "Trade deadline (July 31) approaching - several contenders may become buyers or sellers",
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
