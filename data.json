@@ -158,9 +158,33 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2025-08-10T11:43:44.727120"
+    "last_updated": "2025-08-11T11:46:15.917777"
   },
   "recent_games": [
+    {
+      "away_team": "KC",
+      "home_team": "MIN",
+      "away_score": "3",
+      "home_score": "5",
+      "status": "Final",
+      "impact": "MIN gains ground in wild card race"
+    },
+    {
+      "away_team": "CIN",
+      "home_team": "PIT",
+      "away_score": "14",
+      "home_score": "8",
+      "status": "Final",
+      "impact": "CIN gains ground in wild card race"
+    },
+    {
+      "away_team": "HOU",
+      "home_team": "NYY",
+      "away_score": "7",
+      "home_score": "1",
+      "status": "Final",
+      "impact": "HOU gains ground in wild card race"
+    },
     {
       "away_team": "MIA",
       "home_team": "ATL",
@@ -170,76 +194,52 @@
       "impact": "ATL gains ground in wild card race"
     },
     {
-      "away_team": "HOU",
-      "home_team": "NYY",
-      "away_score": "4",
-      "home_score": "5",
-      "status": "Final",
-      "impact": "NYY gains ground in wild card race"
-    },
-    {
-      "away_team": "WSH",
-      "home_team": "SF",
-      "away_score": "4",
-      "home_score": "2",
-      "status": "Final",
-      "impact": "WSH gains ground in wild card race"
-    },
-    {
       "away_team": "LAA",
       "home_team": "DET",
-      "away_score": "7",
-      "home_score": "4",
+      "away_score": "5",
+      "home_score": "9",
       "status": "Final",
-      "impact": "LAA gains ground in wild card race"
-    },
-    {
-      "away_team": "CIN",
-      "home_team": "PIT",
-      "away_score": "2",
-      "home_score": "1",
-      "status": "Final",
-      "impact": "CIN gains ground in wild card race"
+      "impact": "DET gains ground in wild card race"
     },
     {
       "away_team": "CLE",
       "home_team": "CHW",
-      "away_score": "3",
-      "home_score": "1",
+      "away_score": "4",
+      "home_score": "6",
       "status": "Final",
-      "impact": "CLE gains ground in wild card race"
-    },
-    {
-      "away_team": "KC",
-      "home_team": "MIN",
-      "away_score": "2",
-      "home_score": "0",
-      "status": "Final",
-      "impact": "KC gains ground in wild card race"
+      "impact": "CHW gains ground in wild card race"
     },
     {
       "away_team": "NYM",
       "home_team": "MIL",
-      "away_score": "4",
+      "away_score": "6",
       "home_score": "7",
       "status": "Final",
       "impact": "MIL gains ground in wild card race"
     },
     {
-      "away_team": "MIA",
-      "home_team": "ATL",
-      "away_score": "6",
-      "home_score": "8",
+      "away_team": "PHI",
+      "home_team": "TEX",
+      "away_score": "4",
+      "home_score": "2",
       "status": "Final",
-      "impact": "ATL gains ground in wild card race"
+      "impact": "PHI gains ground in wild card race"
     },
     {
-      "away_team": "CHC",
-      "home_team": "STL",
-      "away_score": "9",
-      "home_score": "1",
+      "away_team": "WSH",
+      "home_team": "SF",
+      "away_score": "8",
+      "home_score": "0",
       "status": "Final",
-      "impact": "CHC gains ground in wild card race"
+      "impact": "WSH gains ground in wild card race"
+    },
+    {
+      "away_team": "BOS",
+      "home_team": "SD",
+      "away_score": "2",
+      "home_score": "6",
+      "status": "Final",
+      "impact": "SD gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -300,9 +300,9 @@
     "New York Yankees leads AL Wild Card race at .550, but Minnesota Twins remains within striking distance",
     "Chicago Cubs controls NL Wild Card with .590 winning percentage",
     "Trade deadline (July 31) approaching - several contenders may become buyers or sellers",
-    "Recent surge by ATL shaking up wild card picture",
-    "Multiple teams within 5 games of final wild card spots in both leagues"
+    "Multiple teams within 5 games of final wild card spots in both leagues",
+    "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2025-08-10T11:43:44.769650",
-  "next_update": "2025-08-11T07:00:00.769654"
+  "generated_at": "2025-08-11T11:46:16.211338",
+  "next_update": "2025-08-12T07:00:00.211347"
 }
