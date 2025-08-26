@@ -158,88 +158,88 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2025-08-25T11:40:20.141897"
+    "last_updated": "2025-08-26T11:39:57.361645"
   },
   "recent_games": [
     {
-      "away_team": "STL",
-      "home_team": "TB",
-      "away_score": "2",
-      "home_score": "7",
+      "away_team": "BOS",
+      "home_team": "BAL",
+      "away_score": "4",
+      "home_score": "3",
+      "status": "Final",
+      "impact": "BOS gains ground in wild card race"
+    },
+    {
+      "away_team": "ATL",
+      "home_team": "MIA",
+      "away_score": "1",
+      "home_score": "2",
+      "status": "Final",
+      "impact": "MIA gains ground in wild card race"
+    },
+    {
+      "away_team": "TB",
+      "home_team": "CLE",
+      "away_score": "9",
+      "home_score": "0",
       "status": "Final",
       "impact": "TB gains ground in wild card race"
     },
     {
-      "away_team": "HOU",
-      "home_team": "BAL",
-      "away_score": "2",
-      "home_score": "3",
+      "away_team": "MIN",
+      "home_team": "TOR",
+      "away_score": "4",
+      "home_score": "10",
       "status": "Final",
-      "impact": "BAL gains ground in wild card race"
+      "impact": "TOR gains ground in wild card race"
     },
     {
-      "away_team": "NYM",
-      "home_team": "ATL",
+      "away_team": "PHI",
+      "home_team": "NYM",
       "away_score": "3",
-      "home_score": "4",
+      "home_score": "13",
       "status": "Final",
-      "impact": "ATL gains ground in wild card race"
+      "impact": "NYM gains ground in wild card race"
     },
     {
-      "away_team": "WSH",
-      "home_team": "PHI",
-      "away_score": "2",
-      "home_score": "3",
+      "away_team": "ARI",
+      "home_team": "MIL",
+      "away_score": "5",
+      "home_score": "7",
       "status": "Final",
-      "impact": "PHI gains ground in wild card race"
+      "impact": "MIL gains ground in wild card race"
     },
     {
       "away_team": "KC",
-      "home_team": "DET",
-      "away_score": "10",
-      "home_score": "8",
-      "status": "Final",
-      "impact": "KC gains ground in wild card race"
-    },
-    {
-      "away_team": "MIN",
       "home_team": "CHW",
       "away_score": "0",
-      "home_score": "8",
+      "home_score": "7",
       "status": "Final",
       "impact": "CHW gains ground in wild card race"
     },
     {
-      "away_team": "SF",
-      "home_team": "MIL",
-      "away_score": "4",
-      "home_score": "3",
-      "status": "Final",
-      "impact": "SF gains ground in wild card race"
-    },
-    {
-      "away_team": "CLE",
-      "home_team": "TEX",
-      "away_score": "0",
-      "home_score": "5",
-      "status": "Final",
-      "impact": "TEX gains ground in wild card race"
-    },
-    {
-      "away_team": "CHC",
-      "home_team": "LAA",
-      "away_score": "4",
-      "home_score": "3",
-      "status": "Final",
-      "impact": "CHC gains ground in wild card race"
-    },
-    {
-      "away_team": "CIN",
-      "home_team": "ARI",
+      "away_team": "PIT",
+      "home_team": "STL",
       "away_score": "6",
-      "home_score": "1",
+      "home_score": "7",
       "status": "Final",
-      "impact": "CIN gains ground in wild card race"
+      "impact": "STL gains ground in wild card race"
+    },
+    {
+      "away_team": "LAA",
+      "home_team": "TEX",
+      "away_score": "4",
+      "home_score": "0",
+      "status": "Final",
+      "impact": "LAA gains ground in wild card race"
+    },
+    {
+      "away_team": "SD",
+      "home_team": "SEA",
+      "away_score": "6",
+      "home_score": "9",
+      "status": "Final",
+      "impact": "SEA gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -303,6 +303,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2025-08-25T11:40:20.181158",
-  "next_update": "2025-08-26T07:00:00.181163"
+  "generated_at": "2025-08-26T11:39:57.444221",
+  "next_update": "2025-08-27T07:00:00.444229"
 }
