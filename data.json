@@ -158,64 +158,88 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2025-08-29T11:39:01.883032"
+    "last_updated": "2025-08-30T11:38:19.613774"
   },
   "recent_games": [
     {
-      "away_team": "BOS",
-      "home_team": "BAL",
-      "away_score": "3",
-      "home_score": "2",
-      "status": "Final",
-      "impact": "BOS gains ground in wild card race"
-    },
-    {
-      "away_team": "ARI",
-      "home_team": "MIL",
-      "away_score": "6",
-      "home_score": "4",
-      "status": "Final",
-      "impact": "ARI gains ground in wild card race"
-    },
-    {
-      "away_team": "COL",
-      "home_team": "HOU",
-      "away_score": "3",
-      "home_score": "4",
-      "status": "Final",
-      "impact": "HOU gains ground in wild card race"
-    },
-    {
-      "away_team": "PIT",
-      "home_team": "STL",
-      "away_score": "1",
-      "home_score": "4",
+      "away_team": "STL",
+      "home_team": "CIN",
+      "away_score": "7",
+      "home_score": "5",
       "status": "Final",
       "impact": "STL gains ground in wild card race"
     },
     {
-      "away_team": "CHC",
-      "home_team": "SF",
-      "away_score": "3",
-      "home_score": "4",
-      "status": "Final",
-      "impact": "SF gains ground in wild card race"
-    },
-    {
       "away_team": "ATL",
       "home_team": "PHI",
-      "away_score": "4",
-      "home_score": "19",
+      "away_score": "1",
+      "home_score": "2",
       "status": "Final",
       "impact": "PHI gains ground in wild card race"
     },
     {
+      "away_team": "MIL",
+      "home_team": "TOR",
+      "away_score": "7",
+      "home_score": "2",
+      "status": "Final",
+      "impact": "MIL gains ground in wild card race"
+    },
+    {
       "away_team": "MIA",
       "home_team": "NYM",
-      "away_score": "7",
-      "home_score": "4",
+      "away_score": "9",
+      "home_score": "19",
       "status": "Final",
-      "impact": "MIA gains ground in wild card race"
+      "impact": "NYM gains ground in wild card race"
+    },
+    {
+      "away_team": "PIT",
+      "home_team": "BOS",
+      "away_score": "4",
+      "home_score": "2",
+      "status": "Final",
+      "impact": "PIT gains ground in wild card race"
+    },
+    {
+      "away_team": "SEA",
+      "home_team": "CLE",
+      "away_score": "4",
+      "home_score": "5",
+      "status": "Final",
+      "impact": "CLE gains ground in wild card race"
+    },
+    {
+      "away_team": "LAA",
+      "home_team": "HOU",
+      "away_score": "0",
+      "home_score": "2",
+      "status": "Final",
+      "impact": "HOU gains ground in wild card race"
+    },
+    {
+      "away_team": "DET",
+      "home_team": "KC",
+      "away_score": "5",
+      "home_score": "3",
+      "status": "Final",
+      "impact": "DET gains ground in wild card race"
+    },
+    {
+      "away_team": "SD",
+      "home_team": "MIN",
+      "away_score": "4",
+      "home_score": "7",
+      "status": "Final",
+      "impact": "MIN gains ground in wild card race"
+    },
+    {
+      "away_team": "ARI",
+      "home_team": "LAD",
+      "away_score": "3",
+      "home_score": "0",
+      "status": "Final",
+      "impact": "ARI gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -279,6 +303,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2025-08-29T11:39:02.223272",
-  "next_update": "2025-08-30T07:00:00.223281"
+  "generated_at": "2025-08-30T11:38:19.754413",
+  "next_update": "2025-08-31T07:00:00.754422"
 }
