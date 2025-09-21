@@ -158,88 +158,88 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2025-09-20T11:38:39.526303"
+    "last_updated": "2025-09-21T11:38:04.020090"
   },
   "recent_games": [
     {
       "away_team": "ATL",
       "home_team": "DET",
-      "away_score": "10",
-      "home_score": "1",
+      "away_score": "6",
+      "home_score": "5",
       "status": "Final",
       "impact": "ATL gains ground in wild card race"
     },
     {
-      "away_team": "CHC",
-      "home_team": "CIN",
-      "away_score": "4",
-      "home_score": "7",
+      "away_team": "CLE",
+      "home_team": "MIN",
+      "away_score": "6",
+      "home_score": "0",
       "status": "Final",
-      "impact": "CIN gains ground in wild card race"
+      "impact": "CLE gains ground in wild card race"
     },
     {
       "away_team": "WSH",
       "home_team": "NYM",
-      "away_score": "6",
-      "home_score": "12",
+      "away_score": "5",
+      "home_score": "3",
       "status": "Final",
-      "impact": "NYM gains ground in wild card race"
+      "impact": "WSH gains ground in wild card race"
+    },
+    {
+      "away_team": "CHC",
+      "home_team": "CIN",
+      "away_score": "3",
+      "home_score": "6",
+      "status": "Final",
+      "impact": "CIN gains ground in wild card race"
     },
     {
       "away_team": "BOS",
       "home_team": "TB",
-      "away_score": "11",
-      "home_score": "7",
+      "away_score": "6",
+      "home_score": "3",
       "status": "Final",
       "impact": "BOS gains ground in wild card race"
+    },
+    {
+      "away_team": "SEA",
+      "home_team": "HOU",
+      "away_score": "6",
+      "home_score": "4",
+      "status": "Final",
+      "impact": "SEA gains ground in wild card race"
     },
     {
       "away_team": "TOR",
       "home_team": "KC",
       "away_score": "1",
-      "home_score": "20",
+      "home_score": "2",
       "status": "Final",
       "impact": "KC gains ground in wild card race"
     },
     {
       "away_team": "CLE",
       "home_team": "MIN",
-      "away_score": "6",
-      "home_score": "2",
+      "away_score": "8",
+      "home_score": "0",
       "status": "Final",
       "impact": "CLE gains ground in wild card race"
     },
     {
-      "away_team": "SEA",
-      "home_team": "HOU",
-      "away_score": "4",
-      "home_score": "0",
+      "away_team": "MIL",
+      "home_team": "STL",
+      "away_score": "3",
+      "home_score": "2",
       "status": "Final",
-      "impact": "SEA gains ground in wild card race"
+      "impact": "MIL gains ground in wild card race"
     },
     {
       "away_team": "LAA",
       "home_team": "COL",
-      "away_score": "6",
-      "home_score": "7",
+      "away_score": "3",
+      "home_score": "0",
       "status": "Final",
-      "impact": "COL gains ground in wild card race"
-    },
-    {
-      "away_team": "MIL",
-      "home_team": "STL",
-      "away_score": "1",
-      "home_score": "7",
-      "status": "Final",
-      "impact": "STL gains ground in wild card race"
-    },
-    {
-      "away_team": "PHI",
-      "home_team": "ARI",
-      "away_score": "8",
-      "home_score": "2",
-      "status": "Final",
-      "impact": "PHI gains ground in wild card race"
+      "impact": "LAA gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -300,9 +300,9 @@
     "New York Yankees leads AL Wild Card race at .550, but Minnesota Twins remains within striking distance",
     "Chicago Cubs controls NL Wild Card with .590 winning percentage",
     "Trade deadline (July 31) approaching - several contenders may become buyers or sellers",
-    "Multiple teams within 5 games of final wild card spots in both leagues",
-    "September schedule strength could determine final playoff spots"
+    "Recent surge by CLE shaking up wild card picture",
+    "Multiple teams within 5 games of final wild card spots in both leagues"
   ],
-  "generated_at": "2025-09-20T11:38:39.615826",
-  "next_update": "2025-09-21T07:00:00.615834"
+  "generated_at": "2025-09-21T11:38:04.034127",
+  "next_update": "2025-09-22T07:00:00.034132"
 }
