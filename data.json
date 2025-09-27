@@ -158,88 +158,88 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2025-09-26T11:38:25.049418"
+    "last_updated": "2025-09-27T11:38:16.686835"
   },
   "recent_games": [
     {
-      "away_team": "PIT",
-      "home_team": "CIN",
+      "away_team": "STL",
+      "home_team": "CHC",
       "away_score": "1",
-      "home_score": "2",
+      "home_score": "12",
       "status": "Final",
-      "impact": "CIN gains ground in wild card race"
+      "impact": "CHC gains ground in wild card race"
     },
     {
       "away_team": "MIN",
-      "home_team": "TEX",
-      "away_score": "4",
-      "home_score": "0",
-      "status": "Final",
-      "impact": "MIN gains ground in wild card race"
-    },
-    {
-      "away_team": "HOU",
-      "home_team": "ATH",
-      "away_score": "11",
-      "home_score": "5",
-      "status": "Final",
-      "impact": "HOU gains ground in wild card race"
-    },
-    {
-      "away_team": "LAD",
-      "home_team": "ARI",
-      "away_score": "8",
-      "home_score": "0",
-      "status": "Final",
-      "impact": "LAD gains ground in wild card race"
-    },
-    {
-      "away_team": "MIA",
       "home_team": "PHI",
-      "away_score": "0",
-      "home_score": "1",
+      "away_score": "1",
+      "home_score": "3",
       "status": "Final",
       "impact": "PHI gains ground in wild card race"
     },
     {
       "away_team": "DET",
-      "home_team": "CLE",
-      "away_score": "4",
-      "home_score": "2",
+      "home_team": "BOS",
+      "away_score": "3",
+      "home_score": "4",
       "status": "Final",
-      "impact": "DET gains ground in wild card race"
-    },
-    {
-      "away_team": "BOS",
-      "home_team": "TOR",
-      "away_score": "1",
-      "home_score": "6",
-      "status": "Final",
-      "impact": "TOR gains ground in wild card race"
+      "impact": "BOS gains ground in wild card race"
     },
     {
       "away_team": "NYM",
-      "home_team": "CHC",
-      "away_score": "8",
-      "home_score": "5",
-      "status": "Final",
-      "impact": "NYM gains ground in wild card race"
-    },
-    {
-      "away_team": "KC",
-      "home_team": "LAA",
-      "away_score": "9",
-      "home_score": "4",
-      "status": "Final",
-      "impact": "KC gains ground in wild card race"
-    },
-    {
-      "away_team": "COL",
-      "home_team": "SEA",
+      "home_team": "MIA",
       "away_score": "2",
       "home_score": "6",
       "status": "Final",
-      "impact": "SEA gains ground in wild card race"
+      "impact": "MIA gains ground in wild card race"
+    },
+    {
+      "away_team": "TEX",
+      "home_team": "CLE",
+      "away_score": "7",
+      "home_score": "3",
+      "status": "Final",
+      "impact": "TEX gains ground in wild card race"
+    },
+    {
+      "away_team": "PIT",
+      "home_team": "ATL",
+      "away_score": "9",
+      "home_score": "3",
+      "status": "Final",
+      "impact": "PIT gains ground in wild card race"
+    },
+    {
+      "away_team": "CIN",
+      "home_team": "MIL",
+      "away_score": "3",
+      "home_score": "1",
+      "status": "Final",
+      "impact": "CIN gains ground in wild card race"
+    },
+    {
+      "away_team": "HOU",
+      "home_team": "LAA",
+      "away_score": "3",
+      "home_score": "4",
+      "status": "Final",
+      "impact": "LAA gains ground in wild card race"
+    },
+    {
+      "away_team": "ARI",
+      "home_team": "SD",
+      "away_score": "4",
+      "home_score": "7",
+      "status": "Final",
+      "impact": "SD gains ground in wild card race"
+    },
+    {
+      "away_team": "LAD",
+      "home_team": "SEA",
+      "away_score": "3",
+      "home_score": "2",
+      "status": "Final",
+      "impact": "LAD gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -303,6 +303,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2025-09-26T11:38:25.161143",
-  "next_update": "2025-09-27T07:00:00.161152"
+  "generated_at": "2025-09-27T11:38:16.727541",
+  "next_update": "2025-09-28T07:00:00.727546"
 }
