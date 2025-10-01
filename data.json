@@ -158,9 +158,34 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2025-09-30T11:39:18.290038"
+    "last_updated": "2025-10-01T11:38:50.870738"
   },
-  "recent_games": [],
+  "recent_games": [
+    {
+      "away_team": "DET",
+      "home_team": "CLE",
+      "away_score": "2",
+      "home_score": "1",
+      "status": "Final",
+      "impact": "DET gains ground in wild card race"
+    },
+    {
+      "away_team": "BOS",
+      "home_team": "NYY",
+      "away_score": "3",
+      "home_score": "1",
+      "status": "Final",
+      "impact": "BOS gains ground in wild card race"
+    },
+    {
+      "away_team": "CIN",
+      "home_team": "LAD",
+      "away_score": "5",
+      "home_score": "10",
+      "status": "Final",
+      "impact": "LAD gains ground in wild card race"
+    }
+  ],
   "playoff_odds": {
     "al_odds": [
       {
@@ -222,6 +247,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2025-09-30T11:39:18.349110",
-  "next_update": "2025-10-01T07:00:00.349114"
+  "generated_at": "2025-10-01T11:38:50.905008",
+  "next_update": "2025-10-02T07:00:00.905012"
 }
