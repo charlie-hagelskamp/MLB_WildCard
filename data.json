@@ -158,24 +158,16 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2025-10-10T11:38:35.853187"
+    "last_updated": "2025-10-11T11:38:10.507070"
   },
   "recent_games": [
     {
-      "away_team": "PHI",
-      "home_team": "LAD",
-      "away_score": "1",
-      "home_score": "2",
+      "away_team": "DET",
+      "home_team": "SEA",
+      "away_score": "2",
+      "home_score": "3",
       "status": "Final",
-      "impact": "LAD gains ground in wild card race"
-    },
-    {
-      "away_team": "MIL",
-      "home_team": "CHC",
-      "away_score": "0",
-      "home_score": "6",
-      "status": "Final",
-      "impact": "CHC gains ground in wild card race"
+      "impact": "SEA gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -239,6 +231,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2025-10-10T11:38:35.888142",
-  "next_update": "2025-10-11T07:00:00.888161"
+  "generated_at": "2025-10-11T11:38:10.606402",
+  "next_update": "2025-10-12T07:00:00.606406"
 }
