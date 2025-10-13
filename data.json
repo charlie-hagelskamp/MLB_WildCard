@@ -158,16 +158,16 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2025-10-12T11:38:05.563590"
+    "last_updated": "2025-10-13T11:38:46.314124"
   },
   "recent_games": [
     {
-      "away_team": "CHC",
-      "home_team": "MIL",
-      "away_score": "1",
-      "home_score": "3",
+      "away_team": "SEA",
+      "home_team": "TOR",
+      "away_score": "3",
+      "home_score": "1",
       "status": "Final",
-      "impact": "MIL gains ground in wild card race"
+      "impact": "SEA gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -231,6 +231,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2025-10-12T11:38:05.612940",
-  "next_update": "2025-10-13T07:00:00.612944"
+  "generated_at": "2025-10-13T11:38:46.431590",
+  "next_update": "2025-10-14T07:00:00.431598"
 }
