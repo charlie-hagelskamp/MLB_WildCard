@@ -158,14 +158,22 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2025-10-16T11:39:01.714331"
+    "last_updated": "2025-10-17T11:38:58.285765"
   },
   "recent_games": [
     {
+      "away_team": "MIL",
+      "home_team": "LAD",
+      "away_score": "1",
+      "home_score": "3",
+      "status": "Final",
+      "impact": "LAD gains ground in wild card race"
+    },
+    {
       "away_team": "TOR",
       "home_team": "SEA",
-      "away_score": "13",
-      "home_score": "4",
+      "away_score": "8",
+      "home_score": "2",
       "status": "Final",
       "impact": "TOR gains ground in wild card race"
     }
@@ -231,6 +239,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2025-10-16T11:39:01.788057",
-  "next_update": "2025-10-17T07:00:00.788064"
+  "generated_at": "2025-10-17T11:38:58.336942",
+  "next_update": "2025-10-18T07:00:00.336949"
 }
