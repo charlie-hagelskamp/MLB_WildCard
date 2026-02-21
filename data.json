@@ -158,9 +158,34 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-02-20T11:54:10.344433"
+    "last_updated": "2026-02-21T11:46:18.707483"
   },
-  "recent_games": [],
+  "recent_games": [
+    {
+      "away_team": "KC",
+      "home_team": "TEX",
+      "away_score": "7",
+      "home_score": "3",
+      "status": "Final",
+      "impact": "KC gains ground in wild card race"
+    },
+    {
+      "away_team": "ARI",
+      "home_team": "COL",
+      "away_score": "3",
+      "home_score": "2",
+      "status": "Final",
+      "impact": "ARI gains ground in wild card race"
+    },
+    {
+      "away_team": "SD",
+      "home_team": "SEA",
+      "away_score": "4",
+      "home_score": "7",
+      "status": "Final",
+      "impact": "SEA gains ground in wild card race"
+    }
+  ],
   "playoff_odds": {
     "al_odds": [
       {
@@ -222,6 +247,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-02-20T11:54:10.347940",
-  "next_update": "2026-02-21T07:00:00.347945"
+  "generated_at": "2026-02-21T11:46:18.767275",
+  "next_update": "2026-02-22T07:00:00.767279"
 }
