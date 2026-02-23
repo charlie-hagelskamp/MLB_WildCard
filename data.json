@@ -158,88 +158,88 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-02-22T11:46:07.380283"
+    "last_updated": "2026-02-23T12:00:05.551822"
   },
   "recent_games": [
     {
-      "away_team": "BOS",
-      "home_team": "MIN",
-      "away_score": "7",
-      "home_score": "2",
+      "away_team": "MIN",
+      "home_team": "ATL",
+      "away_score": "8",
+      "home_score": "1",
+      "status": "Final",
+      "impact": "MIN gains ground in wild card race"
+    },
+    {
+      "away_team": "TOR",
+      "home_team": "BOS",
+      "away_score": "10",
+      "home_score": "11",
       "status": "Final",
       "impact": "BOS gains ground in wild card race"
     },
     {
-      "away_team": "WSH",
-      "home_team": "STL",
+      "away_team": "STL",
+      "home_team": "HOU",
       "away_score": "6",
-      "home_score": "2",
+      "home_score": "5",
       "status": "Final",
-      "impact": "WSH gains ground in wild card race"
+      "impact": "STL gains ground in wild card race"
     },
     {
-      "away_team": "ATL",
-      "home_team": "TB",
-      "away_score": "5",
-      "home_score": "1",
-      "status": "Final",
-      "impact": "ATL gains ground in wild card race"
-    },
-    {
-      "away_team": "HOU",
-      "home_team": "WSH",
-      "away_score": "1",
-      "home_score": "2",
-      "status": "Final",
-      "impact": "WSH gains ground in wild card race"
-    },
-    {
-      "away_team": "PHI",
-      "home_team": "TOR",
-      "away_score": "0",
-      "home_score": "3",
-      "status": "Final",
-      "impact": "TOR gains ground in wild card race"
-    },
-    {
-      "away_team": "MIA",
-      "home_team": "NYM",
-      "away_score": "2",
-      "home_score": "1",
-      "status": "Final",
-      "impact": "MIA gains ground in wild card race"
-    },
-    {
-      "away_team": "CIN",
-      "home_team": "CLE",
-      "away_score": "2",
+      "away_team": "NYM",
+      "home_team": "NYY",
+      "away_score": "6",
       "home_score": "4",
       "status": "Final",
-      "impact": "CLE gains ground in wild card race"
+      "impact": "NYM gains ground in wild card race"
     },
     {
-      "away_team": "SD",
-      "home_team": "KC",
-      "away_score": "10",
+      "away_team": "PIT",
+      "home_team": "PHI",
+      "away_score": "4",
       "home_score": "3",
       "status": "Final",
-      "impact": "SD gains ground in wild card race"
-    },
-    {
-      "away_team": "COL",
-      "home_team": "ARI",
-      "away_score": "11",
-      "home_score": "6",
-      "status": "Final",
-      "impact": "COL gains ground in wild card race"
+      "impact": "PIT gains ground in wild card race"
     },
     {
       "away_team": "CLE",
-      "home_team": "MIL",
-      "away_score": "9",
-      "home_score": "6",
+      "home_team": "ATH",
+      "away_score": "6",
+      "home_score": "0",
       "status": "Final",
       "impact": "CLE gains ground in wild card race"
+    },
+    {
+      "away_team": "MIL",
+      "home_team": "CHW",
+      "away_score": "2",
+      "home_score": "5",
+      "status": "Final",
+      "impact": "CHW gains ground in wild card race"
+    },
+    {
+      "away_team": "SEA",
+      "home_team": "CIN",
+      "away_score": "14",
+      "home_score": "8",
+      "status": "Final",
+      "impact": "SEA gains ground in wild card race"
+    },
+    {
+      "away_team": "CHC",
+      "home_team": "SF",
+      "away_score": "2",
+      "home_score": "4",
+      "status": "Final",
+      "impact": "SF gains ground in wild card race"
+    },
+    {
+      "away_team": "LAA",
+      "home_team": "ARI",
+      "away_score": "10",
+      "home_score": "9",
+      "status": "Final",
+      "impact": "LAA gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -300,9 +300,9 @@
     "New York Yankees leads AL Wild Card race at .550, but Minnesota Twins remains within striking distance",
     "Chicago Cubs controls NL Wild Card with .590 winning percentage",
     "Trade deadline (July 31) approaching - several contenders may become buyers or sellers",
-    "Recent surge by WSH, CLE shaking up wild card picture",
-    "Multiple teams within 5 games of final wild card spots in both leagues"
+    "Multiple teams within 5 games of final wild card spots in both leagues",
+    "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-02-22T11:46:07.455326",
-  "next_update": "2026-02-23T07:00:00.455335"
+  "generated_at": "2026-02-23T12:00:05.563287",
+  "next_update": "2026-02-24T07:00:00.563294"
 }
