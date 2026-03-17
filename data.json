@@ -158,88 +158,88 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-03-16T12:04:25.138444"
+    "last_updated": "2026-03-17T12:03:02.277809"
   },
   "recent_games": [
     {
-      "away_team": "MIN",
-      "home_team": "BOS",
+      "away_team": "TB",
+      "home_team": "ATL",
       "away_score": "2",
-      "home_score": "7",
-      "status": "Final",
-      "impact": "BOS gains ground in wild card race"
-    },
-    {
-      "away_team": "MIA",
-      "home_team": "HOU",
-      "away_score": "0",
-      "home_score": "1",
-      "status": "Final",
-      "impact": "HOU gains ground in wild card race"
-    },
-    {
-      "away_team": "ATL",
-      "home_team": "PHI",
-      "away_score": "1",
-      "home_score": "0",
+      "home_score": "11",
       "status": "Final",
       "impact": "ATL gains ground in wild card race"
     },
     {
-      "away_team": "WSH",
-      "home_team": "STL",
-      "away_score": "3",
-      "home_score": "6",
-      "status": "Final",
-      "impact": "STL gains ground in wild card race"
-    },
-    {
-      "away_team": "TOR",
-      "home_team": "NYM",
-      "away_score": "1",
-      "home_score": "8",
-      "status": "Final",
-      "impact": "NYM gains ground in wild card race"
-    },
-    {
-      "away_team": "ATH",
-      "home_team": "CLE",
+      "away_team": "PHI",
+      "home_team": "DET",
       "away_score": "6",
-      "home_score": "12",
+      "home_score": "13",
       "status": "Final",
-      "impact": "CLE gains ground in wild card race"
+      "impact": "DET gains ground in wild card race"
     },
     {
-      "away_team": "CHW",
-      "home_team": "KC",
-      "away_score": "4",
-      "home_score": "10",
+      "away_team": "PIT",
+      "home_team": "MIN",
+      "away_score": "1",
+      "home_score": "5",
       "status": "Final",
-      "impact": "KC gains ground in wild card race"
+      "impact": "MIN gains ground in wild card race"
+    },
+    {
+      "away_team": "LAA",
+      "home_team": "ATH",
+      "away_score": "0",
+      "home_score": "3",
+      "status": "Final",
+      "impact": "ATH gains ground in wild card race"
     },
     {
       "away_team": "MIL",
-      "home_team": "SF",
-      "away_score": "1",
-      "home_score": "7",
+      "home_team": "LAD",
+      "away_score": "24",
+      "home_score": "9",
       "status": "Final",
-      "impact": "SF gains ground in wild card race"
+      "impact": "MIL gains ground in wild card race"
     },
     {
-      "away_team": "SD",
+      "away_team": "CIN",
       "home_team": "ARI",
-      "away_score": "4",
-      "home_score": "4",
+      "away_score": "6",
+      "home_score": "11",
+      "status": "Final",
+      "impact": "ARI gains ground in wild card race"
+    },
+    {
+      "away_team": "SF",
+      "home_team": "SD",
+      "away_score": "1",
+      "home_score": "3",
       "status": "Final",
       "impact": "SD gains ground in wild card race"
     },
     {
-      "away_team": "COL",
-      "home_team": "LAA",
-      "away_score": "5",
+      "away_team": "BOS",
+      "home_team": "BAL",
+      "away_score": "0",
+      "home_score": "0",
+      "status": "Canceled",
+      "impact": "BOS gains ground in wild card race"
+    },
+    {
+      "away_team": "WSH",
+      "home_team": "NYM",
+      "away_score": "12",
       "home_score": "6",
       "status": "Final",
-      "impact": "LAA gains ground in wild card race"
+      "impact": "WSH gains ground in wild card race"
+    },
+    {
+      "away_team": "CHC",
+      "home_team": "CLE",
+      "away_score": "5",
+      "home_score": "2",
+      "status": "Final",
+      "impact": "CHC gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -303,6 +303,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-03-16T12:04:25.171604",
-  "next_update": "2026-03-17T07:00:00.171625"
+  "generated_at": "2026-03-17T12:03:02.299064",
+  "next_update": "2026-03-18T07:00:00.299068"
 }
