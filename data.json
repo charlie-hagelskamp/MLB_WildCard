@@ -158,56 +158,16 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-03-25T12:03:10.901446"
+    "last_updated": "2026-03-26T12:07:24.129202"
   },
   "recent_games": [
     {
-      "away_team": "TB",
-      "home_team": "ATL",
-      "away_score": "2",
-      "home_score": "3",
-      "status": "Final",
-      "impact": "ATL gains ground in wild card race"
-    },
-    {
-      "away_team": "BOS",
-      "home_team": "MIN",
-      "away_score": "6",
-      "home_score": "15",
-      "status": "Final",
-      "impact": "MIN gains ground in wild card race"
-    },
-    {
-      "away_team": "KC",
-      "home_team": "TEX",
-      "away_score": "1",
-      "home_score": "4",
-      "status": "Final",
-      "impact": "TEX gains ground in wild card race"
-    },
-    {
-      "away_team": "CLE",
-      "home_team": "ARI",
-      "away_score": "10",
-      "home_score": "5",
-      "status": "Final",
-      "impact": "CLE gains ground in wild card race"
-    },
-    {
-      "away_team": "CIN",
-      "home_team": "MIL",
-      "away_score": "1",
-      "home_score": "4",
-      "status": "Final",
-      "impact": "MIL gains ground in wild card race"
-    },
-    {
-      "away_team": "LAA",
-      "home_team": "LAD",
-      "away_score": "3",
+      "away_team": "NYY",
+      "home_team": "SF",
+      "away_score": "7",
       "home_score": "0",
       "status": "Final",
-      "impact": "LAA gains ground in wild card race"
+      "impact": "NYY gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -271,6 +231,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-03-25T12:03:10.924606",
-  "next_update": "2026-03-26T07:00:00.924612"
+  "generated_at": "2026-03-26T12:07:24.134240",
+  "next_update": "2026-03-27T07:00:00.134245"
 }
