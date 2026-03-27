@@ -158,16 +158,80 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-03-26T12:07:24.129202"
+    "last_updated": "2026-03-27T12:03:34.856853"
   },
   "recent_games": [
     {
-      "away_team": "NYY",
-      "home_team": "SF",
+      "away_team": "PIT",
+      "home_team": "NYM",
       "away_score": "7",
+      "home_score": "11",
+      "status": "Final",
+      "impact": "NYM gains ground in wild card race"
+    },
+    {
+      "away_team": "CHW",
+      "home_team": "MIL",
+      "away_score": "2",
+      "home_score": "14",
+      "status": "Final",
+      "impact": "MIL gains ground in wild card race"
+    },
+    {
+      "away_team": "MIN",
+      "home_team": "BAL",
+      "away_score": "1",
+      "home_score": "2",
+      "status": "Final",
+      "impact": "BAL gains ground in wild card race"
+    },
+    {
+      "away_team": "BOS",
+      "home_team": "CIN",
+      "away_score": "3",
       "home_score": "0",
       "status": "Final",
-      "impact": "NYY gains ground in wild card race"
+      "impact": "BOS gains ground in wild card race"
+    },
+    {
+      "away_team": "LAA",
+      "home_team": "HOU",
+      "away_score": "3",
+      "home_score": "0",
+      "status": "Final",
+      "impact": "LAA gains ground in wild card race"
+    },
+    {
+      "away_team": "TEX",
+      "home_team": "PHI",
+      "away_score": "3",
+      "home_score": "5",
+      "status": "Final",
+      "impact": "PHI gains ground in wild card race"
+    },
+    {
+      "away_team": "TB",
+      "home_team": "STL",
+      "away_score": "7",
+      "home_score": "9",
+      "status": "Final",
+      "impact": "STL gains ground in wild card race"
+    },
+    {
+      "away_team": "ARI",
+      "home_team": "LAD",
+      "away_score": "2",
+      "home_score": "8",
+      "status": "Final",
+      "impact": "LAD gains ground in wild card race"
+    },
+    {
+      "away_team": "CLE",
+      "home_team": "SEA",
+      "away_score": "6",
+      "home_score": "4",
+      "status": "Final",
+      "impact": "CLE gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -231,6 +295,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-03-26T12:07:24.134240",
-  "next_update": "2026-03-27T07:00:00.134245"
+  "generated_at": "2026-03-27T12:03:34.877900",
+  "next_update": "2026-03-28T07:00:00.877905"
 }
