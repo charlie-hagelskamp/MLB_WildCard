@@ -158,88 +158,88 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-05-16T12:37:10.366963"
+    "last_updated": "2026-05-17T12:11:16.799839"
   },
   "recent_games": [
     {
-      "away_team": "PHI",
-      "home_team": "PIT",
-      "away_score": "11",
-      "home_score": "9",
-      "status": "Final",
-      "impact": "PHI gains ground in wild card race"
-    },
-    {
-      "away_team": "CIN",
-      "home_team": "CLE",
-      "away_score": "7",
-      "home_score": "6",
-      "status": "Final",
-      "impact": "CIN gains ground in wild card race"
-    },
-    {
-      "away_team": "MIL",
-      "home_team": "MIN",
-      "away_score": "3",
-      "home_score": "2",
-      "status": "Final",
-      "impact": "MIL gains ground in wild card race"
-    },
-    {
-      "away_team": "BOS",
-      "home_team": "ATL",
-      "away_score": "2",
-      "home_score": "3",
-      "status": "Final",
-      "impact": "ATL gains ground in wild card race"
-    },
-    {
-      "away_team": "NYY",
-      "home_team": "NYM",
-      "away_score": "5",
-      "home_score": "2",
-      "status": "Final",
-      "impact": "NYY gains ground in wild card race"
-    },
-    {
-      "away_team": "TEX",
-      "home_team": "HOU",
-      "away_score": "0",
-      "home_score": "2",
-      "status": "Final",
-      "impact": "HOU gains ground in wild card race"
-    },
-    {
       "away_team": "KC",
       "home_team": "STL",
-      "away_score": "4",
-      "home_score": "5",
+      "away_score": "2",
+      "home_score": "4",
       "status": "Final",
       "impact": "STL gains ground in wild card race"
     },
     {
       "away_team": "ARI",
       "home_team": "COL",
-      "away_score": "9",
-      "home_score": "1",
+      "away_score": "2",
+      "home_score": "4",
       "status": "Final",
-      "impact": "ARI gains ground in wild card race"
+      "impact": "COL gains ground in wild card race"
     },
     {
-      "away_team": "LAD",
-      "home_team": "LAA",
+      "away_team": "PHI",
+      "home_team": "PIT",
       "away_score": "6",
       "home_score": "0",
       "status": "Final",
-      "impact": "LAD gains ground in wild card race"
+      "impact": "PHI gains ground in wild card race"
+    },
+    {
+      "away_team": "CIN",
+      "home_team": "CLE",
+      "away_score": "4",
+      "home_score": "7",
+      "status": "Final",
+      "impact": "CLE gains ground in wild card race"
+    },
+    {
+      "away_team": "MIL",
+      "home_team": "MIN",
+      "away_score": "2",
+      "home_score": "1",
+      "status": "Final",
+      "impact": "MIL gains ground in wild card race"
+    },
+    {
+      "away_team": "TEX",
+      "home_team": "HOU",
+      "away_score": "1",
+      "home_score": "4",
+      "status": "Final",
+      "impact": "HOU gains ground in wild card race"
+    },
+    {
+      "away_team": "BOS",
+      "home_team": "ATL",
+      "away_score": "3",
+      "home_score": "2",
+      "status": "Final",
+      "impact": "BOS gains ground in wild card race"
+    },
+    {
+      "away_team": "NYY",
+      "home_team": "NYM",
+      "away_score": "3",
+      "home_score": "6",
+      "status": "Final",
+      "impact": "NYM gains ground in wild card race"
     },
     {
       "away_team": "SD",
       "home_team": "SEA",
-      "away_score": "2",
-      "home_score": "0",
+      "away_score": "7",
+      "home_score": "4",
       "status": "Final",
       "impact": "SD gains ground in wild card race"
+    },
+    {
+      "away_team": "LAD",
+      "home_team": "LAA",
+      "away_score": "15",
+      "home_score": "2",
+      "status": "Final",
+      "impact": "LAD gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -303,6 +303,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-05-16T12:37:10.385170",
-  "next_update": "2026-05-17T07:00:00.385177"
+  "generated_at": "2026-05-17T12:11:16.830540",
+  "next_update": "2026-05-18T07:00:00.830548"
 }
