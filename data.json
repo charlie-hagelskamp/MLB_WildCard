@@ -158,88 +158,88 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-05-27T14:39:11.767817"
+    "last_updated": "2026-05-28T14:50:57.627809"
   },
   "recent_games": [
     {
       "away_team": "WSH",
       "home_team": "CLE",
-      "away_score": "6",
+      "away_score": "2",
       "home_score": "3",
       "status": "Final",
-      "impact": "WSH gains ground in wild card race"
-    },
-    {
-      "away_team": "LAA",
-      "home_team": "DET",
-      "away_score": "10",
-      "home_score": "6",
-      "status": "Final",
-      "impact": "LAA gains ground in wild card race"
-    },
-    {
-      "away_team": "ATL",
-      "home_team": "BOS",
-      "away_score": "7",
-      "home_score": "6",
-      "status": "Final",
-      "impact": "ATL gains ground in wild card race"
-    },
-    {
-      "away_team": "CIN",
-      "home_team": "NYM",
-      "away_score": "7",
-      "home_score": "2",
-      "status": "Final",
-      "impact": "CIN gains ground in wild card race"
-    },
-    {
-      "away_team": "MIN",
-      "home_team": "CHW",
-      "away_score": "5",
-      "home_score": "3",
-      "status": "Final",
-      "impact": "MIN gains ground in wild card race"
-    },
-    {
-      "away_team": "NYY",
-      "home_team": "KC",
-      "away_score": "15",
-      "home_score": "1",
-      "status": "Final",
-      "impact": "NYY gains ground in wild card race"
+      "impact": "CLE gains ground in wild card race"
     },
     {
       "away_team": "STL",
       "home_team": "MIL",
-      "away_score": "0",
-      "home_score": "6",
+      "away_score": "1",
+      "home_score": "2",
       "status": "Final",
       "impact": "MIL gains ground in wild card race"
     },
     {
-      "away_team": "HOU",
-      "home_team": "TEX",
-      "away_score": "7",
-      "home_score": "10",
+      "away_team": "SEA",
+      "home_team": "ATH",
+      "away_score": "9",
+      "home_score": "1",
       "status": "Final",
-      "impact": "TEX gains ground in wild card race"
+      "impact": "SEA gains ground in wild card race"
+    },
+    {
+      "away_team": "ARI",
+      "home_team": "SF",
+      "away_score": "3",
+      "home_score": "2",
+      "status": "Final",
+      "impact": "ARI gains ground in wild card race"
     },
     {
       "away_team": "PHI",
       "home_team": "SD",
-      "away_score": "4",
-      "home_score": "3",
+      "away_score": "3",
+      "home_score": "0",
       "status": "Final",
       "impact": "PHI gains ground in wild card race"
     },
     {
-      "away_team": "SEA",
-      "home_team": "ATH",
-      "away_score": "4",
-      "home_score": "1",
+      "away_team": "LAA",
+      "home_team": "DET",
+      "away_score": "0",
+      "home_score": "4",
       "status": "Final",
-      "impact": "SEA gains ground in wild card race"
+      "impact": "DET gains ground in wild card race"
+    },
+    {
+      "away_team": "ATL",
+      "home_team": "BOS",
+      "away_score": "0",
+      "home_score": "8",
+      "status": "Final",
+      "impact": "BOS gains ground in wild card race"
+    },
+    {
+      "away_team": "CIN",
+      "home_team": "NYM",
+      "away_score": "2",
+      "home_score": "4",
+      "status": "Final",
+      "impact": "NYM gains ground in wild card race"
+    },
+    {
+      "away_team": "MIN",
+      "home_team": "CHW",
+      "away_score": "2",
+      "home_score": "15",
+      "status": "Final",
+      "impact": "CHW gains ground in wild card race"
+    },
+    {
+      "away_team": "NYY",
+      "home_team": "KC",
+      "away_score": "7",
+      "home_score": "0",
+      "status": "Final",
+      "impact": "NYY gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -303,6 +303,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-05-27T14:39:11.785940",
-  "next_update": "2026-05-28T07:00:00.785945"
+  "generated_at": "2026-05-28T14:50:57.649624",
+  "next_update": "2026-05-29T07:00:00.649632"
 }
