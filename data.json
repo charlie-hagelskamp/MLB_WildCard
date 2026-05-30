@@ -158,40 +158,88 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-05-29T14:18:19.737089"
+    "last_updated": "2026-05-30T12:46:40.605467"
   },
   "recent_games": [
     {
-      "away_team": "LAA",
-      "home_team": "DET",
-      "away_score": "7",
-      "home_score": "1",
-      "status": "Final",
-      "impact": "LAA gains ground in wild card race"
-    },
-    {
-      "away_team": "MIN",
-      "home_team": "CHW",
-      "away_score": "2",
-      "home_score": "6",
-      "status": "Final",
-      "impact": "CHW gains ground in wild card race"
-    },
-    {
       "away_team": "ATL",
-      "home_team": "BOS",
-      "away_score": "10",
-      "home_score": "2",
+      "home_team": "CIN",
+      "away_score": "8",
+      "home_score": "3",
       "status": "Final",
       "impact": "ATL gains ground in wild card race"
     },
     {
-      "away_team": "HOU",
-      "home_team": "TEX",
+      "away_team": "MIN",
+      "home_team": "PIT",
       "away_score": "5",
-      "home_score": "1",
+      "home_score": "6",
       "status": "Final",
-      "impact": "HOU gains ground in wild card race"
+      "impact": "PIT gains ground in wild card race"
+    },
+    {
+      "away_team": "LAA",
+      "home_team": "TB",
+      "away_score": "5",
+      "home_score": "8",
+      "status": "Final",
+      "impact": "TB gains ground in wild card race"
+    },
+    {
+      "away_team": "BOS",
+      "home_team": "CLE",
+      "away_score": "3",
+      "home_score": "4",
+      "status": "Final",
+      "impact": "CLE gains ground in wild card race"
+    },
+    {
+      "away_team": "MIA",
+      "home_team": "NYM",
+      "away_score": "7",
+      "home_score": "9",
+      "status": "Final",
+      "impact": "NYM gains ground in wild card race"
+    },
+    {
+      "away_team": "CHC",
+      "home_team": "STL",
+      "away_score": "5",
+      "home_score": "6",
+      "status": "Final",
+      "impact": "STL gains ground in wild card race"
+    },
+    {
+      "away_team": "KC",
+      "home_team": "TEX",
+      "away_score": "1",
+      "home_score": "9",
+      "status": "Final",
+      "impact": "TEX gains ground in wild card race"
+    },
+    {
+      "away_team": "MIL",
+      "home_team": "HOU",
+      "away_score": "5",
+      "home_score": "4",
+      "status": "Final",
+      "impact": "MIL gains ground in wild card race"
+    },
+    {
+      "away_team": "SF",
+      "home_team": "COL",
+      "away_score": "6",
+      "home_score": "8",
+      "status": "Final",
+      "impact": "COL gains ground in wild card race"
+    },
+    {
+      "away_team": "ARI",
+      "home_team": "SEA",
+      "away_score": "6",
+      "home_score": "7",
+      "status": "Final",
+      "impact": "SEA gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -255,6 +303,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-05-29T14:18:19.750534",
-  "next_update": "2026-05-30T07:00:00.750541"
+  "generated_at": "2026-05-30T12:46:40.737092",
+  "next_update": "2026-05-31T07:00:00.737099"
 }
