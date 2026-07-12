@@ -158,88 +158,88 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-07-11T12:29:47.747726"
+    "last_updated": "2026-07-12T12:28:04.668644"
   },
   "recent_games": [
     {
       "away_team": "MIL",
       "home_team": "PIT",
-      "away_score": "0",
-      "home_score": "0",
-      "status": "Postponed",
-      "impact": "MIL gains ground in wild card race"
-    },
-    {
-      "away_team": "PHI",
-      "home_team": "DET",
-      "away_score": "2",
-      "home_score": "10",
+      "away_score": "6",
+      "home_score": "7",
       "status": "Final",
-      "impact": "DET gains ground in wild card race"
+      "impact": "PIT gains ground in wild card race"
     },
     {
-      "away_team": "KC",
-      "home_team": "BAL",
+      "away_team": "LAA",
+      "home_team": "MIN",
       "away_score": "3",
       "home_score": "5",
       "status": "Final",
-      "impact": "BAL gains ground in wild card race"
+      "impact": "MIN gains ground in wild card race"
     },
     {
-      "away_team": "CHC",
-      "home_team": "CIN",
-      "away_score": "0",
+      "away_team": "COL",
+      "home_team": "SF",
+      "away_score": "2",
       "home_score": "4",
       "status": "Final",
-      "impact": "CIN gains ground in wild card race"
+      "impact": "SF gains ground in wild card race"
+    },
+    {
+      "away_team": "BOS",
+      "home_team": "NYM",
+      "away_score": "4",
+      "home_score": "0",
+      "status": "Final",
+      "impact": "BOS gains ground in wild card race"
     },
     {
       "away_team": "CLE",
       "home_team": "MIA",
-      "away_score": "3",
-      "home_score": "2",
+      "away_score": "4",
+      "home_score": "1",
       "status": "Final",
       "impact": "CLE gains ground in wild card race"
     },
     {
       "away_team": "SEA",
       "home_team": "TB",
-      "away_score": "2",
-      "home_score": "7",
+      "away_score": "1",
+      "home_score": "6",
       "status": "Final",
       "impact": "TB gains ground in wild card race"
     },
     {
-      "away_team": "BOS",
-      "home_team": "NYM",
-      "away_score": "6",
+      "away_team": "MIL",
+      "home_team": "PIT",
+      "away_score": "2",
+      "home_score": "3",
+      "status": "Final",
+      "impact": "PIT gains ground in wild card race"
+    },
+    {
+      "away_team": "PHI",
+      "home_team": "DET",
+      "away_score": "4",
       "home_score": "2",
       "status": "Final",
-      "impact": "BOS gains ground in wild card race"
+      "impact": "PHI gains ground in wild card race"
+    },
+    {
+      "away_team": "KC",
+      "home_team": "BAL",
+      "away_score": "1",
+      "home_score": "6",
+      "status": "Final",
+      "impact": "BAL gains ground in wild card race"
     },
     {
       "away_team": "HOU",
       "home_team": "TEX",
-      "away_score": "3",
-      "home_score": "7",
-      "status": "Final",
-      "impact": "TEX gains ground in wild card race"
-    },
-    {
-      "away_team": "LAA",
-      "home_team": "MIN",
-      "away_score": "4",
+      "away_score": "9",
       "home_score": "3",
       "status": "Final",
-      "impact": "LAA gains ground in wild card race"
-    },
-    {
-      "away_team": "ATL",
-      "home_team": "STL",
-      "away_score": "1",
-      "home_score": "2",
-      "status": "Final",
-      "impact": "STL gains ground in wild card race"
+      "impact": "HOU gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -300,9 +300,9 @@
     "New York Yankees leads AL Wild Card race at .550, but Minnesota Twins remains within striking distance",
     "Chicago Cubs controls NL Wild Card with .590 winning percentage",
     "Trade deadline (July 31) approaching - several contenders may become buyers or sellers",
-    "Multiple teams within 5 games of final wild card spots in both leagues",
-    "September schedule strength could determine final playoff spots"
+    "Recent surge by PIT shaking up wild card picture",
+    "Multiple teams within 5 games of final wild card spots in both leagues"
   ],
-  "generated_at": "2026-07-11T12:29:47.827805",
-  "next_update": "2026-07-12T07:00:00.827814"
+  "generated_at": "2026-07-12T12:28:04.699265",
+  "next_update": "2026-07-13T07:00:00.699278"
 }
