@@ -158,9 +158,18 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-07-16T13:00:44.600299"
+    "last_updated": "2026-07-17T12:42:24.778382"
   },
-  "recent_games": [],
+  "recent_games": [
+    {
+      "away_team": "NYM",
+      "home_team": "PHI",
+      "away_score": "4",
+      "home_score": "1",
+      "status": "Final",
+      "impact": "NYM gains ground in wild card race"
+    }
+  ],
   "playoff_odds": {
     "al_odds": [
       {
@@ -222,6 +231,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-07-16T13:00:44.611792",
-  "next_update": "2026-07-17T07:00:00.611798"
+  "generated_at": "2026-07-17T12:42:24.795224",
+  "next_update": "2026-07-18T07:00:00.795228"
 }
