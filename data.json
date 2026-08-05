@@ -158,56 +158,32 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-08-04T13:15:33.439413"
+    "last_updated": "2026-08-05T13:11:12.935844"
   },
   "recent_games": [
     {
-      "away_team": "WSH",
-      "home_team": "PHI",
+      "away_team": "LAA",
+      "home_team": "NYM",
       "away_score": "3",
-      "home_score": "6",
-      "status": "Final",
-      "impact": "PHI gains ground in wild card race"
-    },
-    {
-      "away_team": "STL",
-      "home_team": "NYY",
-      "away_score": "13",
       "home_score": "7",
       "status": "Final",
-      "impact": "STL gains ground in wild card race"
+      "impact": "Angels swept by Mets, wild card hopes dimming"
     },
     {
-      "away_team": "PIT",
-      "home_team": "MIL",
-      "away_score": "4",
-      "home_score": "3",
-      "status": "Final",
-      "impact": "PIT gains ground in wild card race"
-    },
-    {
-      "away_team": "SF",
-      "home_team": "TEX",
+      "away_team": "BOS",
+      "home_team": "SEA",
       "away_score": "5",
-      "home_score": "1",
+      "home_score": "4",
       "status": "Final",
-      "impact": "SF gains ground in wild card race"
+      "impact": "Red Sox edge Mariners in crucial wild card matchup"
     },
     {
-      "away_team": "TOR",
-      "home_team": "HOU",
-      "away_score": "3",
-      "home_score": "1",
+      "away_team": "MIN",
+      "home_team": "KC",
+      "away_score": "2",
+      "home_score": "8",
       "status": "Final",
-      "impact": "TOR gains ground in wild card race"
-    },
-    {
-      "away_team": "SD",
-      "home_team": "ARI",
-      "away_score": "1",
-      "home_score": "5",
-      "status": "Final",
-      "impact": "ARI gains ground in wild card race"
+      "impact": "Twins struggle continues with loss to Royals"
     }
   ],
   "playoff_odds": {
@@ -271,6 +247,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-08-04T13:15:33.470028",
-  "next_update": "2026-08-05T07:00:00.470036"
+  "generated_at": "2026-08-05T13:11:12.997787",
+  "next_update": "2026-08-06T07:00:00.997796"
 }
