@@ -158,32 +158,32 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-09-30T16:55:46.604615"
+    "last_updated": "2026-10-01T17:27:21.307581"
   },
   "recent_games": [
     {
-      "away_team": "LAA",
-      "home_team": "NYM",
-      "away_score": "3",
-      "home_score": "7",
+      "away_team": "PHI",
+      "home_team": "ATL",
+      "away_score": "4",
+      "home_score": "3",
       "status": "Final",
-      "impact": "Angels swept by Mets, wild card hopes dimming"
+      "impact": "PHI gains ground in wild card race"
+    },
+    {
+      "away_team": "CHW",
+      "home_team": "HOU",
+      "away_score": "7",
+      "home_score": "3",
+      "status": "Final",
+      "impact": "CHW gains ground in wild card race"
     },
     {
       "away_team": "BOS",
-      "home_team": "SEA",
-      "away_score": "5",
-      "home_score": "4",
-      "status": "Final",
-      "impact": "Red Sox edge Mariners in crucial wild card matchup"
-    },
-    {
-      "away_team": "MIN",
-      "home_team": "KC",
+      "home_team": "NYY",
       "away_score": "2",
-      "home_score": "8",
+      "home_score": "9",
       "status": "Final",
-      "impact": "Twins struggle continues with loss to Royals"
+      "impact": "NYY gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -247,6 +247,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-09-30T16:55:46.679187",
-  "next_update": "2026-10-01T07:00:00.679196"
+  "generated_at": "2026-10-01T17:27:21.329082",
+  "next_update": "2026-10-02T07:00:00.329092"
 }
