@@ -158,18 +158,9 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-10-02T16:46:00.804735"
+    "last_updated": "2026-10-03T15:11:46.414891"
   },
-  "recent_games": [
-    {
-      "away_team": "PHI",
-      "home_team": "ATL",
-      "away_score": "2",
-      "home_score": "6",
-      "status": "Final",
-      "impact": "ATL gains ground in wild card race"
-    }
-  ],
+  "recent_games": [],
   "playoff_odds": {
     "al_odds": [
       {
@@ -231,6 +222,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-10-02T16:46:00.827131",
-  "next_update": "2026-10-03T07:00:00.827137"
+  "generated_at": "2026-10-03T15:11:46.436550",
+  "next_update": "2026-10-04T07:00:00.436555"
 }
