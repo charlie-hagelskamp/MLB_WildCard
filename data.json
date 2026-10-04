@@ -158,9 +158,34 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-10-03T15:11:46.414891"
+    "last_updated": "2026-10-04T15:55:21.315492"
   },
-  "recent_games": [],
+  "recent_games": [
+    {
+      "away_team": "CHW",
+      "home_team": "CLE",
+      "away_score": "3",
+      "home_score": "0",
+      "status": "Final",
+      "impact": "CHW gains ground in wild card race"
+    },
+    {
+      "away_team": "ATL",
+      "home_team": "LAD",
+      "away_score": "3",
+      "home_score": "5",
+      "status": "Final",
+      "impact": "LAD gains ground in wild card race"
+    },
+    {
+      "away_team": "SD",
+      "home_team": "MIL",
+      "away_score": "2",
+      "home_score": "3",
+      "status": "Final",
+      "impact": "MIL gains ground in wild card race"
+    }
+  ],
   "playoff_odds": {
     "al_odds": [
       {
@@ -222,6 +247,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-10-03T15:11:46.436550",
-  "next_update": "2026-10-04T07:00:00.436555"
+  "generated_at": "2026-10-04T15:55:21.345579",
+  "next_update": "2026-10-05T07:00:00.345590"
 }
