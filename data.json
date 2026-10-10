@@ -158,18 +158,9 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-10-09T17:30:46.904520"
+    "last_updated": "2026-10-10T16:19:10.471927"
   },
-  "recent_games": [
-    {
-      "away_team": "CLE",
-      "home_team": "CHW",
-      "away_score": "9",
-      "home_score": "5",
-      "status": "Final",
-      "impact": "CLE gains ground in wild card race"
-    }
-  ],
+  "recent_games": [],
   "playoff_odds": {
     "al_odds": [
       {
@@ -231,6 +222,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-10-09T17:30:46.943790",
-  "next_update": "2026-10-10T07:00:00.943798"
+  "generated_at": "2026-10-10T16:19:10.491037",
+  "next_update": "2026-10-11T07:00:00.491043"
 }
