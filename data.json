@@ -158,24 +158,16 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-10-13T18:26:35.116231"
+    "last_updated": "2026-10-14T15:55:00.991662"
   },
   "recent_games": [
     {
-      "away_team": "LAD",
-      "home_team": "MIL",
-      "away_score": "4",
-      "home_score": "7",
-      "status": "Final",
-      "impact": "MIL gains ground in wild card race"
-    },
-    {
       "away_team": "CLE",
       "home_team": "TB",
-      "away_score": "7",
+      "away_score": "1",
       "home_score": "3",
       "status": "Final",
-      "impact": "CLE gains ground in wild card race"
+      "impact": "TB gains ground in wild card race"
     }
   ],
   "playoff_odds": {
@@ -239,6 +231,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-10-13T18:26:35.151884",
-  "next_update": "2026-10-14T07:00:00.151892"
+  "generated_at": "2026-10-14T15:55:01.019882",
+  "next_update": "2026-10-15T07:00:00.019889"
 }
