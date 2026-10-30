@@ -158,18 +158,9 @@
         "record": "49-52"
       }
     ],
-    "last_updated": "2026-10-29T17:29:48.009919"
+    "last_updated": "2026-10-30T17:05:41.597463"
   },
-  "recent_games": [
-    {
-      "away_team": "MIL",
-      "home_team": "TB",
-      "away_score": "4",
-      "home_score": "1",
-      "status": "Final",
-      "impact": "MIL gains ground in wild card race"
-    }
-  ],
+  "recent_games": [],
   "playoff_odds": {
     "al_odds": [
       {
@@ -231,6 +222,6 @@
     "Multiple teams within 5 games of final wild card spots in both leagues",
     "September schedule strength could determine final playoff spots"
   ],
-  "generated_at": "2026-10-29T17:29:48.035504",
-  "next_update": "2026-10-30T07:00:00.035510"
+  "generated_at": "2026-10-30T17:05:41.634981",
+  "next_update": "2026-10-31T07:00:00.634985"
 }
